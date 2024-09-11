@@ -26,7 +26,7 @@ def zodiac_sign(day, month):
     return astro_sign
 
 if __name__ == "__main__":
-    month = input("Please enter your birth month (e.g., january, february, etc.): ").lower()
+    month = input("Please enter your birth month (january, february, etc.): ").lower()
 
     day = int(input("Please enter the day you were born (1-31)): "))
 
